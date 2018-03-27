@@ -6,4 +6,6 @@ class App < Sinatra::Base
 		erb :index
 	end
 
+  <%= "I love " + "Ruby!!" %>
+
 end
